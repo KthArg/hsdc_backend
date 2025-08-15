@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "villa_displays",
+  "info": {
+    "singularName": "villa-display",
+    "pluralName": "villa-displays",
+    "displayName": "Villa Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

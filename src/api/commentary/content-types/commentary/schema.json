@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commentaries",
+  "info": {
+    "singularName": "commentary",
+    "pluralName": "commentaries",
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Comment": {
+      "type": "text"
+    }
+  }
+}

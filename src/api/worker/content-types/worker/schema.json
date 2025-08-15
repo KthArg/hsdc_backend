@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workers",
+  "info": {
+    "singularName": "worker",
+    "pluralName": "workers",
+    "displayName": "Worker"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

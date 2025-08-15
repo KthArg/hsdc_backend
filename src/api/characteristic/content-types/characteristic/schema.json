@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "characteristics",
+  "info": {
+    "singularName": "characteristic",
+    "pluralName": "characteristics",
+    "displayName": "Characteristic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Characteristics": {
+      "type": "blocks"
+    }
+  }
+}
