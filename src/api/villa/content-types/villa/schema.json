@@ -47,6 +47,37 @@
           "localized": true
         }
       }
+    },
+    "AC": {
+      "type": "boolean",
+      "default": true
+    },
+    "TV": {
+      "type": "boolean",
+      "default": true
+    },
+    "Coffee_pot": {
+      "type": "boolean",
+      "default": true
+    },
+    "WiFi": {
+      "type": "boolean",
+      "default": true
+    },
+    "Hot_water": {
+      "type": "boolean",
+      "default": true
+    },
+    "Shower": {
+      "type": "boolean",
+      "default": true
+    },
+    "Minibar": {
+      "type": "boolean",
+      "default": true
+    },
+    "People": {
+      "type": "integer"
     }
   }
 }

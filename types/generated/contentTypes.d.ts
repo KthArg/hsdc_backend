@@ -839,6 +839,8 @@ export interface ApiVillaVilla extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    AC: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    Coffee_pot: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -848,6 +850,7 @@ export interface ApiVillaVilla extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    Hot_water: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -856,16 +859,21 @@ export interface ApiVillaVilla extends Struct.CollectionTypeSchema {
       }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::villa.villa'>;
+    Minibar: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    People: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
+    Shower: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     Title: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
+    TV: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    WiFi: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
   };
 }
 
