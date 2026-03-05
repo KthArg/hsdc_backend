@@ -863,6 +863,10 @@ export interface ApiVillaVilla extends Struct.CollectionTypeSchema {
     People: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     Shower: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    Slider_media: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     Title: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
