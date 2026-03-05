@@ -78,6 +78,16 @@
     },
     "People": {
       "type": "integer"
+    },
+    "Slider_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
