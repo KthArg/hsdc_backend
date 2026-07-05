@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rw_tour_categories",
+  "info": {
+    "singularName": "rw-tour-category",
+    "pluralName": "rw-tour-categories",
+    "displayName": "Categorias de tour",
+    "description": "Categoria para filtrar experiencias (Naturaleza, Aventura, etc.)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "tours": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rw-tour.rw-tour",
+      "mappedBy": "category"
+    }
+  }
+}

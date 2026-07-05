@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_rw_desc_blocks",
+  "info": {
+    "displayName": "Description Block",
+    "icon": "align-left",
+    "description": "Bloque de descripcion (detalle): titulo opcional + texto"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

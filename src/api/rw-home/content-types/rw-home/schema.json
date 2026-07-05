@@ -1,0 +1,238 @@
+{
+  "kind": "singleType",
+  "collectionName": "rw_homes",
+  "info": {
+    "singularName": "rw-home",
+    "pluralName": "rw-homes",
+    "displayName": "Home",
+    "description": "Contenido de la pagina principal (rework)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "heroImageUrl": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "essenceEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "essenceTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "essenceQuote": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.timeline-item",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "essenceRevealTitle": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "essenceRevealImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "villasTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "villasIntro": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "bestiaryEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "bestiaryTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "bestiaryIntro": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "bestiary": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.bestiary-item",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "gardenEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "gardenTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "gardenIntro": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "gardenImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "gardenImageUrl": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "herbs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.garden-herb",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "watersTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "pools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.thermal-pool",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "diningEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "diningTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "diningIntro": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "dishes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.dish",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "facilitiesTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "facilitiesIntro": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "servicesEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "servicesTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "toursEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "toursTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "toursSubtitle": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "stayEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "stayTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "stayLede": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "stayImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "stayImageCaption": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "fincaIncluye": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.list-item",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "buenoSaber": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.fact",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "reviewsEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "reviewsTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "reviewsAggregate": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "ctaEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "ctaTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "ctaText": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    }
+  }
+}

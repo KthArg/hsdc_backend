@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_rw_facts",
+  "info": {
+    "displayName": "Fact",
+    "icon": "info",
+    "description": "Par label/valor (ej. Bueno saber): WiFi = Gratuito"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

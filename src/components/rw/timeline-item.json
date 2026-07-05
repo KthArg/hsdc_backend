@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_rw_timeline_items",
+  "info": {
+    "displayName": "Timeline Item",
+    "icon": "clock",
+    "description": "Hito de la linea de tiempo (Esencia): anio, titulo y texto"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

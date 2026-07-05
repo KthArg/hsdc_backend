@@ -1,0 +1,106 @@
+{
+  "kind": "singleType",
+  "collectionName": "rw_site_settings",
+  "info": {
+    "singularName": "rw-site-setting",
+    "pluralName": "rw-site-settings",
+    "displayName": "Ajustes del sitio",
+    "description": "Datos globales: marca, contacto, coordenadas, redes, SEO"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "brandName": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "tagline": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "established": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "foundedYear": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "location": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "coordinates": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "altitude": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "checkIn": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "checkOut": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "phonePrimary": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "phoneSecondary": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "email": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "address": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.social-link",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "mapEmbedUrl": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "wazeUrl": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "googleMapsUrl": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "ratingValue": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "ratingText": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "seoTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "seoDescription": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    }
+  }
+}

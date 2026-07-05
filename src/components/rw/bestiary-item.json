@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_rw_bestiary_items",
+  "info": {
+    "displayName": "Bestiary Item",
+    "icon": "paw-print",
+    "description": "Animal del bestiario: nombre comun, latin, nota e imagen"
+  },
+  "options": {},
+  "attributes": {
+    "roman": {
+      "type": "string"
+    },
+    "genus": {
+      "type": "string"
+    },
+    "commonName": {
+      "type": "string"
+    },
+    "latinName": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

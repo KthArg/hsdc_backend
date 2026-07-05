@@ -1,0 +1,105 @@
+{
+  "kind": "singleType",
+  "collectionName": "rw_abouts",
+  "info": {
+    "singularName": "rw-about",
+    "pluralName": "rw-abouts",
+    "displayName": "Nosotros",
+    "description": "Contenido de la pagina Nosotros (rework)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heroKicker": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroTitle": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "storyLead": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "storyBody": {
+      "type": "richtext",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "storyImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "storyCaption": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "pullQuote": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "valuesEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.value",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rw.stat",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "teamEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "teamTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "teamSubtitle": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "placeKicker": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "placeTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "placeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "ctaTitle": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    }
+  }
+}

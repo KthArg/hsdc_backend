@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_rw_garden_herbs",
+  "info": {
+    "displayName": "Garden Herb",
+    "icon": "plant",
+    "description": "Hierba de la huerta mandala: nombre, latin e imagen"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "latinName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
