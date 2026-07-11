@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "rw_tours_pages",
+  "info": {
+    "singularName": "rw-tours-page",
+    "pluralName": "rw-tours-pages",
+    "displayName": "Tours - Pagina",
+    "description": "Textos de la pagina de listado de Tours (rework)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heroKicker": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroLede": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "priceNote": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "emptyState": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    }
+  }
+}

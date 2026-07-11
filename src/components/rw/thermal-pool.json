@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_rw_thermal_pools",
+  "info": {
+    "displayName": "Thermal Pool",
+    "icon": "drop",
+    "description": "Poza de aguas termales: temperatura, nombre, descripcion e imagen"
+  },
+  "options": {},
+  "attributes": {
+    "temperature": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

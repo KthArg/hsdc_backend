@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_rw_dishes",
+  "info": {
+    "displayName": "Dish",
+    "icon": "fork-knife",
+    "description": "Plato del restaurante Papiro: nombre, subtitulo, precio e imagen"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

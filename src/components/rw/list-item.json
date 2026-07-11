@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_rw_list_items",
+  "info": {
+    "displayName": "List Item",
+    "icon": "check",
+    "description": "Item simple de lista (ej. La finca incluye)"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

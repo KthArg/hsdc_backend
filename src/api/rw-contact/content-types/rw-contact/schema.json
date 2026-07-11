@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "rw_contacts",
+  "info": {
+    "singularName": "rw-contact",
+    "pluralName": "rw-contacts",
+    "displayName": "Contacto",
+    "description": "Contenido de la pagina Contacto (rework)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heroKicker": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroLede": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "whereTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "phoneTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "emailTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "socialsTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "formHeading": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "formSuccessTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "formSuccessText": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "mapEyebrow": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "mapTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
+    }
+  }
+}

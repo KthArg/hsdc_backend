@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_rw_social_links",
+  "info": {
+    "displayName": "Social Link",
+    "icon": "link",
+    "description": "Red social: plataforma, handle y URL"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "handle": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

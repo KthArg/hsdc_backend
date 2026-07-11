@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_rw_values",
+  "info": {
+    "displayName": "Value",
+    "icon": "heart",
+    "description": "Valor de la marca (Nosotros): titulo y descripcion"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
