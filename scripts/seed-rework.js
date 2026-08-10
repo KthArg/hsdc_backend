@@ -341,10 +341,10 @@ const HOME = {
   diningTitle: 'La huerta en el plato',
   diningIntro: 'Nuestra cocina es una traducción honesta de lo que crece a cien metros de la mesa.',
   dishes: [
-    { number: '01', name: 'Sopa de plátano y cilantro', subtitle: 'Plátano verde de la finca · cilantro de la mandala', price: '$12', imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
-    { number: '02', name: 'Trucha del río en hoja de bijao', subtitle: 'Trucha local · achiote · cocción al vapor', price: '$26', imageUrl: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
-    { number: '03', name: 'Casado de raíces', subtitle: 'Yuca, ñame, camote · vegetariano', price: '$18', imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
-    { number: '04', name: 'Postre de cas y manzanilla', subtitle: 'Fruta nacional · miel de la huerta', price: '$10', imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
+    { number: '01', name: 'Sopa de plátano y cilantro', subtitle: 'Plátano verde de la finca · cilantro de la mandala', imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
+    { number: '02', name: 'Trucha del río en hoja de bijao', subtitle: 'Trucha local · achiote · cocción al vapor', imageUrl: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
+    { number: '03', name: 'Casado de raíces', subtitle: 'Yuca, ñame, camote · vegetariano', imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
+    { number: '04', name: 'Postre de cas y manzanilla', subtitle: 'Fruta nacional · miel de la huerta', imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?fm=jpg&q=80&w=1200&auto=format&fit=crop' },
   ],
   facilitiesTitle: 'La finca, por dentro',
   facilitiesIntro: 'Más allá de tu villa, el bosque esconde pozas, huertas, animales y rincones para cada miembro de la familia.',
@@ -523,7 +523,7 @@ async function run() {
       const gallery = await mediaIds([v.image, ...STAY_SCENES]);
       await upsertCollection('api::rw-villa.rw-villa', 'slug', v.slug, {
         slug: v.slug, name: v.name, tagline: v.tagline, capacity: v.capacity,
-        price: v.price, beds: v.beds, description: v.description,
+        beds: v.beds, description: v.description,
         accentColor: v.accentColor, order: i + 1,
         amenities: v.amenities.map((k) => amenityId[k]).filter(Boolean),
         image, gallery,
@@ -619,4 +619,11 @@ async function run() {
   }
 }
 
-run();
+// Exporta los datos para reusarlos (ej. seed-cloud.js) SIN correr el seed local.
+module.exports = {
+  un, LOCALE, AMENITIES, TOUR_CATEGORIES, BASE, STAY_SCENES,
+  VILLAS, FACILITIES, SERVICES, TOURS, TEAM, REVIEWS,
+  SITE_SETTING, HOME, ABOUT, CONTACT, TOURS_PAGE,
+};
+
+if (require.main === module) run();

@@ -3,7 +3,7 @@
   "info": {
     "displayName": "Dish",
     "icon": "fork-knife",
-    "description": "Plato del restaurante Papiro: nombre, subtitulo, precio e imagen"
+    "description": "Plato del restaurante Papiro: nombre, subtitulo e imagen"
   },
   "options": {},
   "attributes": {
@@ -14,9 +14,6 @@
       "type": "string"
     },
     "subtitle": {
-      "type": "string"
-    },
-    "price": {
       "type": "string"
     },
     "image": {

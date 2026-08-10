@@ -122,6 +122,8 @@ coverage
 ############################
 
 .env
+.env.*
+.seed-cloud.env
 license.txt
 exports
 .strapi

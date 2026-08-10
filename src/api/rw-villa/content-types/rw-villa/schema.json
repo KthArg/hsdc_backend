@@ -49,14 +49,6 @@
         }
       }
     },
-    "price": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
     "beds": {
       "type": "string",
       "pluginOptions": {
