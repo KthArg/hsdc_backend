@@ -267,7 +267,7 @@ const SITE_SETTING = {
   phoneSecondary: '(+506) 2479-7055',
   email: 'info@hotelsilenciodelcampo.com',
   address: 'Zona del Volcán Arenal, La Fortuna de San Carlos, Alajuela, Costa Rica.',
-  mapEmbedUrl: 'https://maps.google.com/maps?q=Hotel%20El%20Silencio%20del%20Campo%2C%20La%20Fortuna%2C%20Costa%20Rica&t=&z=13&ie=UTF8&iwloc=&output=embed',
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4802.1950812948735!2d-84.68097514765309!3d10.485651547144244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa00c088782ba9f%3A0x5615bcc1858d8cd2!2sHotel%20el%20Silencio%20del%20Campo!5e0!3m2!1ses-419!2scr!4v1754432602637!5m2!1ses-419!2scr',
   wazeUrl: 'https://waze.com/ul?q=Hotel%20El%20Silencio%20del%20Campo%20La%20Fortuna',
   googleMapsUrl: 'https://www.google.com/maps/search/Hotel+El+Silencio+del+Campo+La+Fortuna+Costa+Rica',
   ratingValue: '5.0',
