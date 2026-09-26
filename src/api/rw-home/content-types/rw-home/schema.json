@@ -147,6 +147,13 @@
       "component": "rw.dish",
       "pluginOptions": { "i18n": { "localized": true } }
     },
+    "diningMenuPdf": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["files"],
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
     "facilitiesTitle": {
       "type": "string",
       "pluginOptions": { "i18n": { "localized": true } }

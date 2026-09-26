@@ -1175,6 +1175,12 @@ export interface ApiRwHomeRwHome extends Struct.SingleTypeSchema {
           localized: true;
         };
       }>;
+    diningMenuPdf: Schema.Attribute.Media<'files'> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     diningTitle: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
